@@ -3,6 +3,7 @@
       <home-header></home-header>
       <home-swiper></home-swiper>
       <home-ad></home-ad>
+      <div>dasdasdas</div>
     </div>
 </template>
 
