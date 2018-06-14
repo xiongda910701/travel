@@ -10,12 +10,7 @@
 </template>
 
 <script>
-  import Vue from 'vue';
-  import VueAwesomeSwiper from 'vue-awesome-swiper';
-  import 'swiper/dist/css/swiper.css';
-  Vue.use(VueAwesomeSwiper);
-
-    export default {
+   export default {
         name: 'HomeSwiper',
         data () {
             return {
@@ -42,12 +37,7 @@
   @import "~styles/common.less";
     .home-header{
       width: 100%;.h(100);
-      .swiper-img{
-        width: 100%;
-      }
-      .swiper-pagination-bullet .swiper-pagination-bullet-active{
-        opacity: 1;
-        background-color: #fff!important;
-      }
+      background-color:#ececec;
+      .swiper-img{width: 100%;}
     }
 </style>

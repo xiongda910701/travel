@@ -2,13 +2,14 @@
     <div class="home-page">
       <home-header></home-header>
       <home-swiper></home-swiper>
+      <home-ad></home-ad>
     </div>
 </template>
 
 <script>
   import HomeHeader from "./components/HomeHeader";
   import HomeSwiper from "./components/HomeSwiper";
-
+  import HomeAd from "./components/HomeAd";
   export default {
         name: 'HelloWorld',
         data () {
@@ -17,7 +18,7 @@
             }
         },
       components:{
-        HomeHeader,HomeSwiper
+        HomeHeader,HomeSwiper,HomeAd
 
       }
     }
