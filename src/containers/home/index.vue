@@ -3,7 +3,6 @@
       <home-header></home-header>
       <home-swiper></home-swiper>
       <home-ad></home-ad>
-      <div>dasdasdas</div>
     </div>
 </template>
 
@@ -12,20 +11,13 @@
   import HomeSwiper from "./components/HomeSwiper";
   import HomeAd from "./components/HomeAd";
   export default {
-        name: 'HelloWorld',
-        data () {
-            return {
-                msg: 'home page'
-            }
-        },
+      name: 'Home',
       components:{
         HomeHeader,HomeSwiper,HomeAd
-
       }
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
   @import "~styles/common.less";
 </style>
