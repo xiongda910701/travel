@@ -6,7 +6,7 @@
         <span>请输入城市/景点/游玩主题</span>
       </div>
       <div class="header-right">
-        <span>城市</span>
+        <span>{{this.city}}</span>
         <i class="iconfont icon-select-down"></i>
       </div>
     </div>
@@ -15,6 +15,9 @@
 <script>
     export default {
         name: 'HomeHeader',
+        props:{
+          city:String
+        },
         data () {
             return {
             }
