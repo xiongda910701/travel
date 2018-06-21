@@ -25,25 +25,27 @@
     }
 </script>
 
-<style lang="less" scoped>
-    @import "~styles/common.less";
-    .header{
-      .h(44);.lh(44);.fs(12);
-      background-color: @blue;
-      color:@white;
-      display:flex;
-      .header-left{
-        .w(32);text-align: center;
-      }
-      .header-input{
-        flex: 1;
-        .h(26);.lh(26);.mt(9);.pl(8);
-        border-radius: 3px;
-        background-color: @white;
-        color: @lightblack;
-      }
-      .header-right{
-        .w(64);text-align: center;
-      }
-    }
+<style lang="stylus" scoped>
+    .header
+      display:flex
+      height: 0.88rem
+      line-height: 0.88rem
+      font-size: 0.24rem
+      background-color:#00b4d4
+      color:white
+      .header-left
+        width: 0.64rem
+        text-align: center
+      .header-input
+        flex: 1
+        height: 0.52rem
+        line-height: 0.52rem
+        margin-top: 0.18rem
+        padding-left: 0.16rem
+        border-radius: 0.06rem
+        background-color:white
+        color:#959595
+      .header-right
+        width: 1.28rem
+        text-align: center
 </style>

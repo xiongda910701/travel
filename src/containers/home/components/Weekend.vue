@@ -20,28 +20,28 @@
   }
 </script>
 
-<style lang="less" scoped>
-  @import "~styles/common.less";
-  .home-weekend{
-    .fs(14);
-    .title{
-      .h(40);.lh(40);.pl(10);
-      background-color: #eeeeee;
-      color: @lightblack;
-    }
-    .list{
-      .item-img{
-        img{.w(375);.h(139);}
-      }
-      .item-title{
-        color: #212121;
-        .fs(13);.lh(30);.pl(15);
-      }
-      .item-desc{
-        .pl(15);.fs(12);
-        color: #616161;
-        .pb(20);.mt(3);
-      }
-    }
-  }
+<style lang="stylus" scoped>
+  .home-weekend
+    font-size:0.28rem
+    .title
+      height: 0.8rem
+      line-height: 0.8rem
+      padding-left: 0.2rem
+      background-color: #eeeeee
+    .list
+      .item-img
+        img
+          width: 7.5rem
+          height: 2.78rem
+      .item-title
+        color: #212121
+        font-size: 0.26rem
+        line-height: 0.6rem
+        padding-left: 0.3rem
+      .item-desc
+        padding-left: 0.3rem
+        padding-bottom: 0.4rem
+        margin-top: 0.06rem
+        font-size: 0.24rem
+        color: #616161
 </style>

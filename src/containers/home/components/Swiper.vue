@@ -29,11 +29,12 @@
     }
 </script>
 
-<style lang="less">
-  @import "~styles/common.less";
-    .home-header{
-      width: 100%;.h(125);
-      background-color:#ececec;
-      .swiper-img{width: 100%;.h(125);}
-    }
+<style lang="stylus">
+    .home-header
+      width: 100%
+      height: 2.5rem
+      background-color:#ececec
+      .swiper-img
+        width: 100%
+        height: 2.5rem
 </style>

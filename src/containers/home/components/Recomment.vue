@@ -26,39 +26,38 @@
     }
 </script>
 
-<style lang="less" scoped>
- @import "~styles/common.less";
- .home-recomment{
-   .fs(14);
-   .title{
-     .h(40);.lh(40);.pl(10);
-     background-color: #eeeeee;
-     color: @lightblack;
-   }
-   .list{
-     .item{
-       display: flex;.p(15);
-       border-bottom:1px solid #eee;
-       .item-img{
-         .w(100);.h(100);
-       }
-       .item-info{
-         .ml(10);width:100%;
-         .name{.mt(8);}
-         .desc{.lh(50);.textOverFlow(1);color: @lightblack;}
-         .price-btn{
-           .lh(40);
-           .price{.fs(13);color: @red;}
-           .btn{
-             float: right;.h(24);.mt(8);
-             background-color: @blue;
-             color: @white;
-             border: 1px solid @blue;
-             .w(80);
-           }
-         }
-       }
-     }
-   }
- }
+<style lang="stylus" scoped>
+ .home-recomment
+   font-size:0.28rem
+   .title
+     height: 0.8rem
+     line-height: 0.8rem
+     padding-left: 0.1rem
+     background-color: #eeeeee
+   .list
+     .item
+       display: flex
+       padding: 0.3rem
+       color:#959595
+       border-bottom:1px solid #eee
+       .item-img
+         width: 1.6rem
+         height: 1.6rem
+       .item-info
+         flex: 1
+         padding-left:0.2rem
+         .desc
+           margin: 0.2rem 0
+         .price-btn
+           .price
+             font-size: 0.26rem
+             color: red
+           .btn
+                 float: right
+                 padding: 0 0.3rem
+                 height: 0.48rem
+                 margin-top: 0.16rem
+                 background-color:#00b4d4
+                 color:white
+                 border: 1px solid #00b4d4
 </style>

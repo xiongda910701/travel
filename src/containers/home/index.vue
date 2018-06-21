@@ -53,6 +53,6 @@
   }
 </script>
 
-<style scoped lang="less">
-  @import "~styles/common.less";
+<style scoped lang="stylus">
+
 </style>

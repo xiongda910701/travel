@@ -44,17 +44,20 @@
 </script>
 
 
-<style lang="less" scoped>
-  @import "~styles/common.less";
-     .home-ad{
-       .h(190);.fs(14);
-       color:@lightblack;
-       .item{
-         width: 25%;.h(95);text-align: center;float:left;
-         .item-img-box{
-            text-align:center;
-            .item-img{.w(55);.h(55);.mt(10);}
-         }
-       }
-     }
+<style lang="stylus" scoped>
+     .home-ad
+       height: 3.8rem
+       font-size: 0.28rem
+       .item
+         width: 25%
+         height: 1.9rem
+         text-align: center
+         float:left
+         color:#959595
+         .item-img-box
+            text-align:center
+            .item-img
+              width: 1.1rem
+              height: 1.1rem
+              margin-top: 0.2rem
 </style>
